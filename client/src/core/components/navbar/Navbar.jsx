@@ -1,15 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BiShoppingBag } from "react-icons/bi";
+import { BiShoppingBag, BiUserCircle } from "react-icons/bi";
 import { AiOutlineAlignRight } from "react-icons/ai";
+import Cart from "../cart/Cart";
 
 const Navbar = () => {
   return (
-    <header className="header" id="header">
+    <>
+      <header className="header" id="header">
       <nav className="nav container">
-    <Link to='/' className="nav__logo">
-    <i className="bx bxs-watch nav__logo-icon"></i> Wotchy
-    </Link>
+        <Link to="/" className="nav__logo">
+          <i className="bx bxs-watch nav__logo-icon"></i> Wotchy
+        </Link>
         <div className="nav__menu" id="nav-menu">
           <ul className="nav__list">
             <li className="nav__item">
@@ -41,6 +43,9 @@ const Navbar = () => {
 
         <div className="nav__btns">
           <div className="nav__shop" id="cart-shop">
+            <BiUserCircle />
+          </div>
+          <div className="nav__shop" id="cart-shop">
             <BiShoppingBag />
           </div>
 
@@ -50,6 +55,9 @@ const Navbar = () => {
         </div>
       </nav>
     </header>
+    { /* */}
+    <Cart />
+    </>
   );
 };
 

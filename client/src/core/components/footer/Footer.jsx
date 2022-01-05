@@ -6,7 +6,6 @@ const Footer = () => {
       <div className="footer__container container grid">
         <div className="footer__content">
           <h3 className="footer__title">Our information</h3>
-
           <ul className="footer__list">
             <li>8555, Glen Str, Pretoria, 0196</li>
             <li>Gauteng, South Africa</li>

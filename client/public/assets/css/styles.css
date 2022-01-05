@@ -309,7 +309,8 @@ body.dark-theme {
 }
 
 .home__img-bg {
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background: blanchedalmond;
   width: 258px;
   height: 430px;
   padding-bottom: 2rem;
@@ -331,7 +332,7 @@ body.dark-theme {
 
 .home__social-link {
   font-size: var(--smaller-font-size);
-  color: var(--text-color-light);
+  color: #000;
   transition: .3s;
 }
 

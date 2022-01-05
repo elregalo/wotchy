@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { SiFacebook, SiInstagram, SiTwitter } from "react-icons/si";
+import BannerImage from "../../assets/images/banner/banner.png";
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
       <section className="home" id="home">
         <div className="home__container container grid">
           <div className="home__img-bg">
-            <img src="assets/img/banner.png" alt="" className="home__img" />
+            <img src={BannerImage} alt="" className="home__img" />
           </div>
 
           <div className="home__social">
@@ -57,6 +58,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      
     </main>
   );
 };

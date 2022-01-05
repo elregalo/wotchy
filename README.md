@@ -1,10 +1,10 @@
-# Wotchy Online E-commerce
+# ⌚ Wotchy Online E-commerce ⌚
 
-## Description
+## 📖 Description 📖
 
-## Installation
+## 🗞️ Installation 🗞️
 
-## Author
+## 🖋️ Author 🖋️
 
 
 ## License
